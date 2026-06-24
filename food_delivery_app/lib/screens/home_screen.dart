@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-
+import "restraunt_screen.dart";
 class HomeScreen extends StatefulWidget{
     @override
     State<HomeScreen> createState() => _HomeScreenState();
@@ -88,7 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (context)=> ResturantScreen()
+                                            builder: (context)=> RestrauntScreen()
                                         ),
                                     );
                                 },
