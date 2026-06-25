@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-
+import "food_screen.dart";
 class RestrauntScreen extends StatefulWidget {
     @override
     State<RestrauntScreen> createState()=> _RestrauntScreenState();
@@ -34,12 +34,12 @@ class _RestrauntScreenState extends State<RestrauntScreen> {
                             subtitle: Text("₹250"),
                             trailing: Icon(Icons.arrow_forward),
                             onTap: () {
-                                //Navigator.push(
-                                //    context,
-                                //    MaterialPageRoute(
-                                //        builder: (context) => FoodScreen(),
-                                //    ),
-                                //);
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => FoodScreen(),
+                                    ),
+                                );
                             },
                         ),
                     ],
