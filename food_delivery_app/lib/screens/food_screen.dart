@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "cart_screen.dart";
 
 class FoodScreen extends StatefulWidget {
     @override
@@ -48,7 +49,12 @@ class _FoodScreenState extends State<FoodScreen> {
 
                         ElevatedButton(
                             onPressed: () {
-                                
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context)=> CartScreen(),
+                                    ),
+                                );
                             },
                             child: Text("Add To Cart"),
                         ),
