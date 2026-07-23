@@ -1,0 +1,8 @@
+name: smart_quiz_app
+description: A CLI smart quiz app that loads JSON questions and tracks scores.
+version: 1.0.0
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0

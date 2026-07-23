@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "text": "What does OOP stand for?",
+    "options": ["Object-Oriented Programming", "Ordered Output Process", "Optimized Object Parsing"],
+    "answerIndex": 0
+  },
+  {
+    "id": 2,
+    "text": "Which keyword is used to create a class in Dart?",
+    "options": ["struct", "class", "interface"],
+    "answerIndex": 1
+  },
+  {
+    "id": 3,
+    "text": "What does async/await help with?",
+    "options": ["Synchronous code only", "Asynchronous operations", "Static typing"],
+    "answerIndex": 1
+  }
+]
